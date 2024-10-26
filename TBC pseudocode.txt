@@ -1,0 +1,23 @@
+Character Class
+	Need to set name, hitpoints, damage character can do, chance for character to hit, and armor to a base set.
+
+def name
+	define name of the character
+def hitpoint
+	define hitpoints character can have
+def max damage
+	define damage character can do
+def hit chance
+	define chance for character to hit
+def armor
+	defines how much armor the character has
+print stats
+	needs to print the initial stats of the character. might add to combat in BB if time allows
+attack
+	need to set up a algorithm to take the character hit chance and max damage if hit is not a miss
+fight
+	need to put the attack function into a new function that allows the characters to hit each other
+	also needs to allow player to press enter to make this more interactive.
+main 
+	needs to be in separate file and call the rest into it
+	this will include the characters and their stats, a function to print their stats, and a function that calls the fight
